@@ -1,7 +1,8 @@
-html {
+body {
     background-repeat: repeat-x;
     background-color: #daffb0;
     background: -webkit-gradient(linear, 71% 45%, 10% 21%, from(#daffb0), to(#b1cf8f));
+    width: 100%;
 }
 
 .big-texts {
@@ -17,4 +18,12 @@ html {
     margin-top: 200px;
     text-shadow:2px 2px 0px #000000;
     color: #488800;
+}
+
+code {
+    background-color: #cccccc;
+    display: block;
+    width: 600px;
+    border: 1px black solid;
+    overflow-x: scroll;
 }

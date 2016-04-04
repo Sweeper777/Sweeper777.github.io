@@ -10,6 +10,11 @@ body {
     font-family: sans-serif;
     text-shadow:2px 2px 0px #000000;
     color: #488800;
+    font-size: 20pt;
+    font-family: 'Oregano', cursive;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #title {
@@ -18,12 +23,20 @@ body {
     margin-top: 200px;
     text-shadow:2px 2px 0px #000000;
     color: #488800;
+    font-size: 25pt;
+    font-family: 'Oregano', cursive;
+    display: block;
+    margin-bottom: 20px;
 }
 
 code {
-    background-color: #cccccc;
+    background-color: #dddddd;
     display: block;
-    width: 600px;
     border: 1px black solid;
     overflow-x: scroll;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 15pt;
+    padding: 30px 30px 30px 30px;
+    font-family: "Nova Mono";
 }

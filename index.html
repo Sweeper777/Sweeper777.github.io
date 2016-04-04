@@ -3,98 +3,100 @@
     <head>
         <title>Hello! I'm Sweeper!</title>
         <link href="styles.css" rel="stylesheet" type="text/css">
-            <script src="jquery-2.2.2.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Oregano" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Nova+Mono" rel="stylesheet" type="text/css">
+        <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?autoload=true&amp;skin=default&amp;lang=css" defer="defer"></script>
             
     </head>
     <body>
-        <h1 id="title">Hello, World! I'm Sweeper.</h1>
-        <h2 class="big-texts">This is me, on Stack Overflow.</h2>
+        <span id="title">Hello, World! I'm Sweeper.</span>
+        <span class="big-texts">This is me, on Stack Overflow.</span>
         <center><a href="http://stackoverflow.com/users/5133585/sweeper">
             <img src="http://stackoverflow.com/users/flair/5133585.png" width="208" height="58" alt="profile for Sweeper at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Sweeper at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
                 </a></center>
         
-        <h2 class="big-texts">I code in C#...</h2>
+        <span class="big-texts">I code in C#...</span>
         <pre>
-            <code>
-        public class Gift {
-            private object stuffInside;
-        
-            public Gift(object stuffInside) {
-                this.stuffInside = stuffInside;
-            }
-        
-            public object Open() {
-                return stuffInside;
-            }
-        
-            public void SendTo(string person) {
-                Console.WriteLine($"I sent the present to {person}");
-            }
-        }
-        
-        //--------
-        
-        Console.WriteLine("Hey there!");
-        Console.WriteLine("I got a present for you!");
-        var present = new Gift(stuffInside: "I hope you have a good day!");
-        present.SendTo("you");
-        Console.WriteLine(present.Open());
+            <code class="prettyprint">
+public class Gift {
+    private object stuffInside;
+
+    public Gift(object stuffInside) {
+        this.stuffInside = stuffInside;
+    }
+
+    public object Open() {
+        return stuffInside;
+    }
+
+    public void SendTo(string person) {
+        Console.WriteLine($"I sent the present to {person}");
+    }
+}
+
+//--------
+
+Console.WriteLine("Hey there!");
+Console.WriteLine("I got a present for you!");
+var present = new Gift(stuffInside: "I hope you have a good day!");
+present.SendTo("you");
+Console.WriteLine(present.Open());
             </code>
         </pre>
         
-        <h2 class="big-texts">and Java...</h2>
+        <span class="big-texts">and Java...</span>
         
         <pre>
-            <code>
-        public class Gift {
-            private Object stuffInside;
-        
-            public Gift(Object stuffInside) {
-                this.stuffInside = stuffInside;
-            }
-        
-            public Object open() {
-                return stuffInside;
-            }
-        
-            public void sendTo(String person) {
-                System.out.println("I sent the present to " + "person");
-            }
-        }
-        //--------
-        System.out.println("Hey there!");
-        System.out.println("I got a present for you!");
-        Gift present = new Gift("I hope you have a good day!");
-        present.sendTo("you");
-        System.out.println(present.open());
+            <code class="prettyprint">
+public class Gift {
+    private Object stuffInside;
+
+    public Gift(Object stuffInside) {
+        this.stuffInside = stuffInside;
+    }
+
+    public Object open() {
+        return stuffInside;
+    }
+
+    public void sendTo(String person) {
+        System.out.println("I sent the present to " + "person");
+    }
+}
+//--------
+System.out.println("Hey there!");
+System.out.println("I got a present for you!");
+Gift present = new Gift("I hope you have a good day!");
+present.sendTo("you");
+System.out.println(present.open());
             </code>
         </pre>
         
-        <h2 class="big-texts">and Swift.</h2>
+        <span class="big-texts">and Swift.</span>
         
         <pre>
-            <code>
-        public class Gift {
-            private var stuffInside: AnyObject
-        
-            public init(stuffInside: AnyObject) {
-                self.stuffInside = stuffInside
-            }
-        
-            public func open() -> AnyObject {
-                return stuffInside
-            }
-        
-            public func sendTo(person: String) {
-                print("I sent the present to \(person)")
-            }
-        }
-        //--------
-        print("Hey there!")
-        print("I got a present for you!")
-        let present = Gift(stuffInside: "I hope you have a good day!")
-        present.sendTo("you")
-        print(present.open())
+            <code class="prettyprint">
+public class Gift {
+    private var stuffInside: AnyObject
+
+    public init(stuffInside: AnyObject) {
+        self.stuffInside = stuffInside
+    }
+
+    public func open() -> AnyObject {
+        return stuffInside
+    }
+
+    public func sendTo(person: String) {
+        print("I sent the present to \(person)")
+    }
+}
+//--------
+print("Hey there!")
+print("I got a present for you!")
+let present = Gift(stuffInside: "I hope you have a good day!")
+present.sendTo("you")
+print(present.open())
             </code>
         </pre>
     </body>

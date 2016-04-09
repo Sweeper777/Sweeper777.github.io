@@ -23,7 +23,7 @@ body {
     margin-top: 200px;
     text-shadow:2px 2px 0px #000000;
     color: #488800;
-    font-size: 25pt;
+    font-size: 40pt;
     font-family: 'Oregano', cursive;
     display: block;
     margin-bottom: 30px;
@@ -39,4 +39,16 @@ code {
     font-size: 13pt;
     padding: 30px 30px 30px 30px;
     font-family: "Nova Mono";
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    text-shadow:1px 1px 0px #000000;
+    color: #8f91cf;
+    font-size: 16pt;
+    font-family: 'Oregano', cursive;
 }

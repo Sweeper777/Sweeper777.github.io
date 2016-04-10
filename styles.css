@@ -52,3 +52,16 @@ a {
     font-size: 16pt;
     font-family: 'Oregano', cursive;
 }
+
+#screenshot {
+    width: 1280px;
+    height: 779px;
+    display: inline;
+}
+
+#screenshot-div {
+    margin-right: 30px;
+    margin-left: 30px;
+    display: block;
+    overflow-x: scroll;
+}

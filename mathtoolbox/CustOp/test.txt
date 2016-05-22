@@ -1,1 +1,1 @@
-This is a random string.
+{“name”:“MyCustOp”,“rejectFloatingPoint”:“false”,”availableInputs”:[{“name”:“x”,“desc”:”A number”},{“name”:”y”,”desc”:”Another number”}],”results”:[{“name”:”Sum”,”formula”:”’x’ + ’y’”},{“name”:”Difference”,”formula”:”’x’ - ‘y’”}]}

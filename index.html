@@ -128,18 +128,18 @@ System.out.println(present.open());
         
         <pre>
             <code class="prettyprint">
-public class Gift {
+open class Gift {
     private var stuffInside: AnyObject
 
-    public init(stuffInside: AnyObject) {
+    open init(stuffInside: AnyObject) {
         self.stuffInside = stuffInside
     }
 
-    public func open() -> AnyObject {
+    open func opened() -> AnyObject {
         return stuffInside
     }
 
-    public func sendTo(person: String) {
+    open func send(to person: String) {
         print("I sent the present to \(person)")
     }
 }
@@ -147,8 +147,8 @@ public class Gift {
 print("Hey there!")
 print("I got a present for you!")
 let present = Gift(stuffInside: "Have a nice day!")
-present.sendTo("you")
-print(present.open())
+present.send(to: "you")
+print(present.opened())
             </code>
         </pre>
         

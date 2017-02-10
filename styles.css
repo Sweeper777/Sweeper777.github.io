@@ -26,6 +26,7 @@ p {
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 20px;
+    margin-right: 60px;
 }
 
 #title {
@@ -52,8 +53,13 @@ code {
     font-family: "Nova Mono";
 }
 
-ul {
+.no-dot {
     list-style-type: none;
+    list-style-image: none;
+}
+
+ul {
+    list-style-image: url("bulletstyle.png");
 }
 
 a {

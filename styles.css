@@ -78,6 +78,10 @@ a {
     color: #b75656;
 }
 
+#answers li a:hover, #questions li a:hover {
+    color: black;
+}
+
 #screenshot {
     width: 1280px;
     height: 779px;

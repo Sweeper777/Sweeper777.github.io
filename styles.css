@@ -70,6 +70,14 @@ a {
     font-family: 'Oregano', cursive;
 }
 
+#answers li a {
+    color: #5684b7;
+}
+
+#questions li a {
+    color: #b75656;
+}
+
 #screenshot {
     width: 1280px;
     height: 779px;

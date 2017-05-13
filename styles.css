@@ -94,3 +94,13 @@ a {
     display: block;
     overflow-x: scroll;
 }
+
+.scrollable {
+    overflow: scroll;
+    max-height: 500px;
+    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    max-width: 100%;
+}
+

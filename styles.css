@@ -107,3 +107,9 @@ a {
 center .scrollable ul {
     padding-right: 40px;
 }
+
+.horizontal-scrollable {
+    overflow-x: scroll;
+    white-space: nowrap;
+    background-color: rgba(0, 0, 0, 0.1);
+}

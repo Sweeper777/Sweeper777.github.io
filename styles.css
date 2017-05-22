@@ -2,7 +2,7 @@ body {
     background-repeat: repeat-x;
     background-color: #daffb0;
     background: -webkit-gradient(linear, 71% 45%, 10% 21%, from(#daffb0), to(#b1cf8f));
-    width: 100%;
+    width: 99%;
 }
 
 .big-texts {

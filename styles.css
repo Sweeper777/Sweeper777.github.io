@@ -113,3 +113,8 @@ center .scrollable ul {
     white-space: nowrap;
     background-color: rgba(0, 0, 0, 0.1);
 }
+
+.horizontal-scrollable a img {
+    width: 300px;
+    height: 300px;
+}

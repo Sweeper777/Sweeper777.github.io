@@ -66,16 +66,17 @@ a {
     text-decoration: none;
     text-shadow:1px 1px 0px #000000;
     color: #8f91cf;
-    font-size: 16pt;
     font-family: 'Oregano', cursive;
 }
 
 #answers li a {
     color: #5684b7;
+    font-size: 16pt;
 }
 
 #questions li a {
     color: #b75656;
+    font-size: 16pt;
 }
 
 #answers li a:hover, #questions li a:hover {

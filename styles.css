@@ -96,6 +96,12 @@ a {
     overflow-x: scroll;
 }
 
+#my-tags {
+    background: #ffffff;
+    border: #000000 5px solid;
+    padding: 5px 5px 5px 5px;
+}
+
 .scrollable {
     overflow: scroll;
     max-height: 500px;

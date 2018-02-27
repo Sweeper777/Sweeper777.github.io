@@ -212,6 +212,31 @@ present.send_to("you")
 print(present.open())
             </code>
         </pre>
+        <span class="big-texts">I am currently learning Haskell!</span>
+        
+        <pre>
+            <code class="prettyprint">
+-- Various attempts at FooBar
+foobar x =
+    if x `mod` 3 == 0 || x `mod` 5 == 0 then
+        (if x `mod` 3 == 0 then "foo" else "") ++ (if x `mod` 5 == 0 then "bar" else "")
+    else show x
+
+foobar' x
+    | x `mod` 3 == 0 && x `mod` 5 == 0 = "foobar"
+    | x `mod` 3 == 0 = "foo"
+    | x `mod` 5 == 0 = "bar"
+    | otherwise  = show x
+
+foobar'' x
+    | divisibleBy3 && divisibleBy5 = "foobar"
+    | divisibleBy3 = "foo"
+    | divisibleBy5 = "bar"
+    where 
+        divisibleBy3 = x `mod` 3 == 0
+        divisibleBy5 = x `mod` 5 == 0
+            </code>
+        </pre>
         
         <span class="big-texts">Here are my Android apps!</span>
         <center><p>(Note that some icons may be inaccurate. They are the icons that I decided to use in future updates.)</p></center>

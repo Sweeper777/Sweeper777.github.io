@@ -111,6 +111,10 @@ a {
     max-width: 100%;
 }
 
+.scrollable #answers, .scrollable #questions {
+    max-height: 200px;
+}
+
 center .scrollable ul {
     padding-right: 40px;
 }

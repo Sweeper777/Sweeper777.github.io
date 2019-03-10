@@ -217,22 +217,22 @@ print(present.open())
         
         <pre>
             <code class="prettyprint">
--- Various attempts at FooBar
-foobar x =
+-- Various attempts at FizzBuzz
+fizzbuzz x =
     if x `mod` 3 == 0 || x `mod` 5 == 0 then
-        (if x `mod` 3 == 0 then "foo" else "") ++ (if x `mod` 5 == 0 then "bar" else "")
+        (if x `mod` 3 == 0 then "fizz" else "") ++ (if x `mod` 5 == 0 then "buzz" else "")
     else show x
 
-foobar' x
-    | x `mod` 3 == 0 && x `mod` 5 == 0 = "foobar"
-    | x `mod` 3 == 0 = "foo"
-    | x `mod` 5 == 0 = "bar"
+fizzbuzz' x
+    | x `mod` 3 == 0 && x `mod` 5 == 0 = "fizzbuzz"
+    | x `mod` 3 == 0 = "fizz"
+    | x `mod` 5 == 0 = "buzz"
     | otherwise  = show x
 
-foobar'' x
-    | divisibleBy3 && divisibleBy5 = "foobar"
-    | divisibleBy3 = "foo"
-    | divisibleBy5 = "bar"
+fizzbuzz'' x
+    | divisibleBy3 && divisibleBy5 = "fizzbuzz"
+    | divisibleBy3 = "fizz"
+    | divisibleBy5 = "buzz"
     where 
         divisibleBy3 = x `mod` 3 == 0
         divisibleBy5 = x `mod` 5 == 0
